@@ -1,0 +1,40 @@
+/* Header section */
+
+.container-fluid{
+    
+    padding-left: 6%;
+    color: red;
+
+}
+
+.dropdown-item{
+    
+    
+    color: red;
+
+}
+
+#navbarSupportedContent a{
+    color: #777171;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+    
+}   
+
+.nav-item{
+    margin-left: 2em;
+    
+}
+
+/* Image caousel */
+
+.carousel-inner img{     
+    height: auto;
+    border-bottom: 1px solid red;
+}
+
+
+
+
+
