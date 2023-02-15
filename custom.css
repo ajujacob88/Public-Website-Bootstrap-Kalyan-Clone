@@ -30,28 +30,65 @@
 /* Image caousel */
 
 .carousel-inner img{     
-    height: auto;
+    height: 100%;
+    width: 100%;
     border-bottom: 1px solid red;
 }
 
 
 /* vertical line */
 
-.vertical-line{
+.d-flex{
     border-left: 1px solid rgb(3, 3, 3);
-    height: 50px;
-    
-    position: absolute;
+    margin-left: 50%;
+    margin-top: 1%;    
     left: 50%;
-    margin-top: 1.5%;
-    
-    
-    
 }
 
-.section-content {
-    padding-top: 5%;
+/* content section */
+/*.section-content {    
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
+}
+*/
+
+@media (min-width: 1280px) {
+    .px-xl-5 {
+        text-align: center;
+        padding-right: 15rem !important;
+        padding-left: 15rem !important;
+    }
+
+}
+
+.px-4{
+    
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: center;
+}
+
+/* video embedding */
+
+.flexaju{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.aju2{
+    width: 50%;    
+    
+}
+
+.aju2 img{
+    width: auto;
+    height: 20rem;
+    border: solid 50px red;
+    background-color:  red;
+    margin: auto;
 }
