@@ -130,3 +130,14 @@
         margin: auto;
     }
 }
+
+.accordion{
+   width: 85%;
+   margin: auto;
+   text-align: center;
+   
+}
+
+.accordion-item{
+    background-color:#777171);
+}
