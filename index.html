@@ -279,25 +279,24 @@
 
 <div class="divider1"></div>
 
-<!-- subscription form-->
 
-<div class="border2">
-
-  <form class="row g-3">
-    <div class="col-auto">
-      <label for="staticEmail2" class="visually-hidden">Email </label>
-      <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Subscribe Our Newsletter">
-    </div>
-    <div class="col-auto">
-      <label for="inputemail2" class="visually-hidden">Email address</label>
-      <input type="email" class="form-control" id="inputemail2" placeholder="Email address">
-    </div>
-    <div class="col-auto">
-      <button type="submit" class="btn btn-primary mb-3" input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.row.email)" >submit</button>
-    </div>
+  <!-- Email subscription  -->
+  <img onload='document.form1.text1.focus()' alt="">
+  <div class="mail">
+  <h4>SUBSCRIBE KALYAN NEWSLETTER</h4>
+  <form name="form1" action="#"> 
+  <ul>
+  <li><input type='text' name='text1'/></li>
+  <li>&nbsp;</li>
+  <li class="submit"><input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)"/></li>
+  <li>&nbsp;</li>
+  </ul>
   </form>
-  
-</div>
+  </div>
+  <script src="validation.js"></script>
+
+
+<!-- Email Section -->
 
 
 

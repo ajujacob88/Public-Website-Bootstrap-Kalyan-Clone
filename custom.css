@@ -198,3 +198,31 @@ footer .column i + i {
     z-index: 9999;
     transition: all 1.5s ease;
   }
+
+
+  li {list-style-type: none;
+  }
+  .mail {
+  text-align:left;
+  padding-bottom: 1%;
+  padding-left: 8%;
+  width: 100%;
+  background : white;
+  border: 1px soild rgb(127, 28, 28);
+  }
+  .mail h4 {
+  margin-left: 32px;
+  }
+  input {
+  font-size: 12pt;
+  }
+  input:focus, textarea:focus{
+  background-color: lightyellow;
+  }
+  input submit {
+  font-size: 5pt;
+  }
+  .rq {
+  color: #FF0000;
+  font-size: 10pt;
+  }
